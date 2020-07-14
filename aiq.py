@@ -10,14 +10,13 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from matplotlib.ticker import MultipleLocator
 
-ts_token = '50b60260a0b87536a2d0231f89b4d5460d97270385f444c0badfe64d'
 olderr = np.seterr(all='ignore')
 
 
 def get_daily_basic(ts_code, days):
     # 定义ts_token
     # 可从推广连接 https://tushare.pro/register?reg=378233 获取
-    ts_tokens = '50b60260a0b87536a2d0231f89b4d5460d97270385f444c0badfe64d'
+    ts_token = '50b60260a0b87536a2d0231f89b4d5460d97270385f444c0badfe64d'
 
     # 接入tushare api
     pro = ts.pro_api(ts_token)
