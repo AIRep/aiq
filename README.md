@@ -2,7 +2,7 @@ An artificial intelligence robot for quantitative trading.
 
 ## Documentation
 
-Check out our docs at [doc](https://github.com/AIRep/aiq/tree/master/doc/src/_posts).
+Check out our docs at [airep.github.io](https://airep.github.io/).
 
 
 ## Contribution
